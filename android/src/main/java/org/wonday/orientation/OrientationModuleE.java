@@ -37,7 +37,7 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-public class OrientationModule extends ReactContextBaseJavaModule implements OrientationListeners {
+public class OrientationModuleE extends ReactContextBaseJavaModule implements OrientationListeners {
 
     final BroadcastReceiver mReceiver;
     final OrientationEventListener mOrientationListener;
@@ -46,7 +46,7 @@ public class OrientationModule extends ReactContextBaseJavaModule implements Ori
     private String lastOrientationValue = "";
     private String lastDeviceOrientationValue = "";
 
-    public OrientationModule(ReactApplicationContext reactContext) {
+    public OrientationModuleE(ReactApplicationContext reactContext) {
         super(reactContext);
         ctx = reactContext;
 

@@ -8,7 +8,7 @@ import android.util.Log;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class OrientationActivityLifecycle implements Application.ActivityLifecycleCallbacks {
-    private static final String TAG = "OrientationModule";
+    private static final String TAG = "OrientationModuleE";
     private static AtomicInteger activeCount = new AtomicInteger(0);
     private OrientationListeners orientationListeners;
 
